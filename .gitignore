@@ -1,0 +1,11 @@
+# python virtual environment
+__pycache__
+bin
+lib
+lib64
+pyvenv.cfg
+
+# images
+*.gif
+*.jpg
+*.png
