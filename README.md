@@ -42,7 +42,7 @@ Displays the image/gif in the terminal. For gifs, it will infinitely loop throug
 Example: `python show.py` <br>
 
 ```
-usage: show.py [-h] [-d [DELAY]] [folder]
+usage: show.py [-h] [-d [f]] [folder]
 
 Show computed ASCII image or gif.
 
@@ -51,6 +51,5 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
-  -d [DELAY], --delay [DELAY]
-                        delay between frames, default is 0.07 seconds.
+  -d [f], --delay [f]  delay between frames, default is 0.07 seconds.
 ```
