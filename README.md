@@ -41,6 +41,16 @@ All arguments can be nested and combined
 Displays the image/gif in the terminal. For gifs, it will infinitely loop through the frames <br>
 Example: `python show.py` <br>
 
-You can specify the `s` argument to specify the delay between frames <br>
-`s {float}` - delay between frames, default is 0.07 seconds
-Example: `python show.py s 0.3` <br>
+```
+usage: show.py [-h] [-d [DELAY]] [folder]
+
+Show computed ASCII image or gif.
+
+positional arguments:
+  folder                folder containing the computed output.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d [DELAY], --delay [DELAY]
+                        delay between frames, default is 0.07 seconds.
+```
